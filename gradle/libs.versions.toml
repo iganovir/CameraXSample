@@ -1,0 +1,35 @@
+[versions]
+agp = "8.3.0"
+kotlin = "1.9.0"
+coreKtx = "1.12.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.11.0"
+camerax = "1.3.3"
+objectDetectionCommon = "18.0.0"
+objectDetection = "17.0.1"
+guava = "27.1-android"
+faceDetection = "16.1.6"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+cameraLifecycle = {group =  'androidx.camera', name =  'camera-lifecycle', version.ref = "camerax"}
+cameraCore = {group=  'androidx.camera', name= 'camera-core', version.ref = "camerax"}
+camera2 = {group=  'androidx.camera', name= 'camera-camera2', version.ref = "camerax"}
+cameraView = {group= 'androidx.camera', name= 'camera-view', version.ref = "camerax"}
+objectDetectionCommon = { group = "com.google.mlkit", name = "object-detection-common", version.ref = "objectDetectionCommon" }
+objectDetection = { group = "com.google.mlkit", name = "object-detection", version.ref = "objectDetection" }
+guava = { group = "com.google.guava", name = "guava", version.ref = "guava" }
+faceDetection = { group = "com.google.mlkit", name = "face-detection", version.ref = "faceDetection" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
