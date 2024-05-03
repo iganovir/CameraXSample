@@ -12,6 +12,9 @@ objectDetectionCommon = "18.0.0"
 objectDetection = "17.0.1"
 guava = "27.1-android"
 faceDetection = "16.1.6"
+playServicesMlkitBarcodeScanning = "18.3.0"
+cameraMlkitVision = "1.4.0-alpha05"
+imageLabelling = "17.0.7"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -28,6 +31,9 @@ objectDetectionCommon = { group = "com.google.mlkit", name = "object-detection-c
 objectDetection = { group = "com.google.mlkit", name = "object-detection", version.ref = "objectDetection" }
 guava = { group = "com.google.guava", name = "guava", version.ref = "guava" }
 faceDetection = { group = "com.google.mlkit", name = "face-detection", version.ref = "faceDetection" }
+playServicesMlkitBarcodeScanning = { group = "com.google.android.gms", name = "play-services-mlkit-barcode-scanning", version.ref = "playServicesMlkitBarcodeScanning" }
+cameraMlkitVision = { group = "androidx.camera", name = "camera-mlkit-vision", version.ref = "cameraMlkitVision" }
+imageLabelling = { group = "com.google.mlkit", name = "image-labeling-custom-common", version.ref = "imageLabelling" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

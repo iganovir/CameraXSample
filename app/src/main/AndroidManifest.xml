@@ -19,13 +19,20 @@
         android:theme="@style/Theme.CameraXSample"
         tools:targetApi="31" >
 
-        <activity android:name=".capture.CameraPreviewActivity" android:screenOrientation="portrait"
+        <activity android:name=".basiccameraapp.cameraprovider.CameraProviderPreviewActivity" android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".basiccameraapp.cameracontroller.BarcodeScanningActivity" android:screenOrientation="portrait"
+            android:exported="true"/>
+
+        <activity android:name=".sampleapp.UserSatisficationActivity" android:screenOrientation="portrait"
+            android:exported="true"/>
+
 
     </application>
 

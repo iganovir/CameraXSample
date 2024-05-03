@@ -1,4 +1,4 @@
-package com.iganovir.cameraxsample.capture
+package com.iganovir.cameraxsample.basiccameraapp.cameraprovider
 
 import android.Manifest
 import android.content.ContentValues
@@ -34,7 +34,7 @@ import java.util.Locale
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 
-class CameraPreviewActivity : AppCompatActivity() {
+class CameraProviderPreviewActivity : AppCompatActivity() {
 
     private lateinit var viewBinding: ActivityCameraPreviewBinding
 
@@ -159,7 +159,7 @@ class CameraPreviewActivity : AppCompatActivity() {
             .prepareRecording(this, mediaStoreOutputOptions)
             .apply {
                 if (PermissionChecker.checkSelfPermission(
-                        this@CameraPreviewActivity,
+                        this@CameraProviderPreviewActivity,
                         Manifest.permission.RECORD_AUDIO
                     ) ==
                     PermissionChecker.PERMISSION_GRANTED
