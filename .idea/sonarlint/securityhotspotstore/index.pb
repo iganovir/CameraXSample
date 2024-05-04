@@ -68,8 +68,6 @@ y
 Iapp/src/main/java/com/iganovir/cameraxsample/qrscanner/QrCodeViewModel.kt,7/3/736eb9e64a495358bb33a75371613cfc7c6bcb19
 x
 Happ/src/main/java/com/iganovir/cameraxsample/qrscanner/QrCodeDrawable.kt,7/7/770199befc3af8bd1dc4c3c681bb573623aa186e
-—
-gapp/src/main/java/com/iganovir/cameraxsample/basiccameraapp/cameracontroller/BarcodeScanningActivity.kt,3/3/33d1ac0ee727cd0edf768091cf7f76554e6ff0e2
 ›
 kapp/src/main/java/com/iganovir/cameraxsample/basiccameraapp/cameraprovider/CameraProviderPreviewActivity.kt,8/f/8fc1b50216e85756662a6554381fbab6a433cf6e
 ~

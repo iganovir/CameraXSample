@@ -59,7 +59,6 @@ dependencies {
     implementation(libs.faceDetection)
     implementation(libs.playServicesMlkitBarcodeScanning)
     implementation(libs.cameraMlkitVision)
-    implementation(libs.imageLabelling)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
