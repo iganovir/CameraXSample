@@ -170,7 +170,6 @@ class UserSatisficationActivity : AppCompatActivity() {
 
         private const val REQUEST_CODE_PERMISSIONS = 10
         private const val MINIMAL_SMILING_PROBABILITY = 0.7
-        private val REQUIRED_PERMISSIONS =
-            arrayOf(Manifest.permission.CAMERA, Manifest.permission.RECORD_AUDIO)
+        private val REQUIRED_PERMISSIONS = arrayOf(Manifest.permission.CAMERA)
     }
 }

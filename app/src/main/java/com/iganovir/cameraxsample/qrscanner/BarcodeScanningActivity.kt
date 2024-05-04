@@ -1,4 +1,4 @@
-package com.iganovir.cameraxsample.basiccameraapp.cameracontroller
+package com.iganovir.cameraxsample.qrscanner
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -17,8 +17,6 @@ import com.google.mlkit.vision.barcode.BarcodeScannerOptions
 import com.google.mlkit.vision.barcode.BarcodeScanning
 import com.google.mlkit.vision.barcode.common.Barcode
 import com.iganovir.cameraxsample.databinding.ActivityBaseCameraBinding
-import com.iganovir.cameraxsample.qrscanner.QrCodeDrawable
-import com.iganovir.cameraxsample.qrscanner.QrCodeViewModel
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 
